@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.even-odd-page-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.even-odd-page-container {
+  background-color: #ffffff;
+  height: 90vh;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1e293b;
+}
+.even-odd-count-card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.count-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.count-sub-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400px;
+}
+.count-name {
+}
+.increment-button {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-width: 0px;
+  border-style: solid;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .even-odd-page-container {
+    height: 98vh;
+    width: 950px;
+    border-radius: 2px;
+  }
+  .even-odd-count-card-container {
+    height: 400px;
+    width: 480px;
+  }
+  .count-heading {
+    font-size: 38px;
+  }
+  .count-sub-heading {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 15px;
+  }
+}
